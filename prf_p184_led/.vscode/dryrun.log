@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ubuntu/udoo_linux_bsp/drivers/prf_p184_led'
+arm-linux-gnueabihf-gcc -o call_app_led call_app_led.c
+cp call_app_led /srv/nfs
+make -C /home/ubuntu/udoo_linux_bsp/kernel/3.14.1 SUBDIRS=/home/ubuntu/udoo_linux_bsp/drivers/prf_p184_led modules ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
+cp call_dev_led.ko /srv/nfs
+make: Leaving directory '/home/ubuntu/udoo_linux_bsp/drivers/prf_p184_led'
+ 

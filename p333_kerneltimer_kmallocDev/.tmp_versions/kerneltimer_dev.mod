@@ -1,0 +1,2 @@
+/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_kmallocDev/kerneltimer_dev.ko
+/home/ubuntu/udoo_linux_bsp/drivers/p333_kerneltimer_kmallocDev/kerneltimer_dev.o
